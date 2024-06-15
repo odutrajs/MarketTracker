@@ -21,7 +21,7 @@ export default function SignInPage() {
           </ClerkLoading>
         </div>
       </div>
-      <div className="h-full bg-green-500 hidden lg:flex flex-col items-center justify-center">
+      <div className="h-full bg-gradient-to-b from-green-700 to-green-500 hidden lg:flex flex-col items-center justify-center">
         <Image src="/logo.svg" alt="logo" width={100} height={100} />
         <h1 className="p-5 text-3xl lg:text-5xl text-white font-extrabold tracking-widest logo-text">
           Market Tracker
